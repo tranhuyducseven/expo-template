@@ -51,14 +51,12 @@ export const useAccountStore = create<IAccountState>()(
                     return;
                   }
                 } catch (e) {
-                  console.log("Login failed", e);
                   set({ loading: false });
                   return;
                 }
               }
             }
           } catch (e) {
-            console.log("unknown");
             set({ loading: false });
           }
           set({ loading: false });

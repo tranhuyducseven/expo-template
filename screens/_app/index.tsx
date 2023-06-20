@@ -1,6 +1,6 @@
+import { RootStack } from "@navigators/app";
 import { NavigationContainer } from "@react-navigation/native";
 import { useAppStore } from "@states/app";
-import { RootStack } from "@navigators/app";
 import { Provider as PaperProvider } from "react-native-paper";
 import { darkTheme, lightTheme } from "theme";
 

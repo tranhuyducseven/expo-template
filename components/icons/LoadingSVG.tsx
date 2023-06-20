@@ -4,7 +4,6 @@ import { Svg } from "react-native-svg";
 export const LoadingSVG: ISvgComponent = ({
   width = "100%",
   height = "100%",
-  className = "fill-blue-600",
 }) => {
   return (
     <Svg

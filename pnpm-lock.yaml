@@ -23,9 +23,6 @@ dependencies:
   axios:
     specifier: ^1.4.0
     version: 1.4.0
-  deepmerge:
-    specifier: ^4.3.1
-    version: 4.3.1
   expo:
     specifier: ~48.0.19
     version: 48.0.19(@babel/core@7.22.5)
@@ -44,9 +41,6 @@ dependencies:
   expo-navigation-bar:
     specifier: ~2.1.1
     version: 2.1.1(expo@48.0.19)
-  expo-status-bar:
-    specifier: ~1.4.4
-    version: 1.4.4
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -59,9 +53,6 @@ dependencies:
   react-native:
     specifier: 0.71.11
     version: 0.71.11(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react@18.2.0)
-  react-native-maps:
-    specifier: 1.7.1
-    version: 1.7.1(react-native-web@0.19.5)(react-native@0.71.11)(react@18.2.0)
   react-native-onboarding-swiper:
     specifier: ^1.2.0
     version: 1.2.0(prop-types@15.8.1)(react-native@0.71.11)(react@18.2.0)
@@ -2550,10 +2541,6 @@ packages:
       '@types/serve-static': 1.15.1
     dev: true
 
-  /@types/geojson@7946.0.10:
-    resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
-    dev: false
-
   /@types/glob@7.2.0:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
@@ -4386,11 +4373,6 @@ packages:
     resolution: {integrity: sha512-GRQOafGHwMHpjPx9iCvTgpu9NojZ49q794EEL94JVEw6VaeA8XTUyBKvAkOOjBX9oJNiV6G3P+T+tihFjo2TqA==}
     engines: {node: '>=0.10.0'}
 
-  /deepmerge@4.3.1:
-    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
-    engines: {node: '>=0.10.0'}
-    dev: false
-
   /default-gateway@4.2.0:
     resolution: {integrity: sha512-h6sMrVB1VMWVrW13mSc6ia/DwYYw5MN6+exNu1OaJeFac5aSAvwM7lZ0NVfTABuSkQelr4h5oebg3KB1XPdjgA==}
     engines: {node: '>=6'}
@@ -5230,10 +5212,6 @@ packages:
     transitivePeerDependencies:
       - encoding
     dev: true
-
-  /expo-status-bar@1.4.4:
-    resolution: {integrity: sha512-5DV0hIEWgatSC3UgQuAZBoQeaS9CqeWRZ3vzBR9R/+IUD87Adbi4FGhU10nymRqFXOizGsureButGZIXPs7zEA==}
-    dev: false
 
   /expo@48.0.19(@babel/core@7.22.5):
     resolution: {integrity: sha512-Pmz2HEwcDdjWPq5fM3vF++je0hjZIBX9aTZEkm6sBv09Vfhe4+CuiuKDq3iE+N6G9l2+eFYoRCApDwLqcRMiPA==}
@@ -8706,22 +8684,6 @@ packages:
 
   /react-native-gradle-plugin@0.71.19:
     resolution: {integrity: sha512-1dVk9NwhoyKHCSxcrM6vY6cxmojeATsBobDicX0ZKr7DgUF2cBQRTKsimQFvzH8XhOVXyH8p4HyDSZNIFI8OlQ==}
-
-  /react-native-maps@1.7.1(react-native-web@0.19.5)(react-native@0.71.11)(react@18.2.0):
-    resolution: {integrity: sha512-CHVLzL+Q2jiUGgbt4/vosxVI1SukWyaLGjD62VLgR/wZpnH4Umi9ql1bmKDPWcfj2C1QZwMU0Yc7rXTbvZUIiw==}
-    peerDependencies:
-      react: '>= 17.0.1'
-      react-native: '>= 0.64.3'
-      react-native-web: '>= 0.11'
-    peerDependenciesMeta:
-      react-native-web:
-        optional: true
-    dependencies:
-      '@types/geojson': 7946.0.10
-      react: 18.2.0
-      react-native: 0.71.11(@babel/core@7.22.5)(@babel/preset-env@7.22.5)(react@18.2.0)
-      react-native-web: 0.19.5(react-dom@18.2.0)(react@18.2.0)
-    dev: false
 
   /react-native-onboarding-swiper@1.2.0(prop-types@15.8.1)(react-native@0.71.11)(react@18.2.0):
     resolution: {integrity: sha512-UcQ9FTSPG/t12B7dddr62xtA7qHb+MEc/kQnkkUbeWas0+0fQPjTjiFcVZm5LI3CP5X0HVp7U1Rzfrpf3O9lJA==}
